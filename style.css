@@ -275,11 +275,29 @@ td, th{
         position: static;
     }
 
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .contenido-principal{
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .contenido-principal, .contacto{
         width: auto;
     }
 
-    .listas-diferenciales, .imagen-diferenciales{
+    .listas-diferenciales, .imagen-diferenciales , .mensaje{
         width: 100%;
     }
+
+    .contacto {
+        align-content: center;
+    }
+
+    .input-padron{
+        align-items: right;
+        margin-left: %;
+        max-width: 90%;
+        min-width: 70%;
+    }
+
+    .mensajee{
+        max-width: 80%;
+        margin: 0 10% 0 10%;
+        }
+
+
 }
