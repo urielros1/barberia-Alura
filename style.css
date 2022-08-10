@@ -284,7 +284,7 @@ td, th{
     }
 
     .contacto {
-        align-content: center;
+        align-items: center;
     }
 
     .input-padron{
@@ -298,6 +298,23 @@ td, th{
         max-width: 80%;
         margin: 0 10% 0 10%;
         }
+    .productos li{
+        display: block;
+        margin-bottom: 3em;
+        box-sizing: border-box;
+        width: auto;
+    }
+    .productos{
+        width:auto;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    .img{
+        width: 60%;
+    }
 
+    .nav ul{
+        align-items: center;
+    }
 
 }
